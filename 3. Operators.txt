@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    float mealCost;
+    float tipPercent;
+    float taxPercent;
+    float tip;
+    float tax;
+    float totalCost;
+    scanf("%f", &mealCost);
+    scanf("%f",&tipPercent);
+    scanf("%f",&taxPercent);
+    tip=(mealCost*(tipPercent/100.0));
+    tax=(mealCost*(taxPercent/100.0));
+    totalCost=(mealCost+tip+tax);
+    int total= totalCost;
+     if(totalCost-total>0.5)
+      printf("%d ",total+1);
+    else
+      printf("%d",total);
+}
