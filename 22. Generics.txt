@@ -1,0 +1,8 @@
+public void printArray(T[] array)
+    {
+        for(T value:array)
+        {
+            System.out.println(value);
+        }
+ 
+    }
